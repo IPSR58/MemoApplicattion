@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+button{
+	display:inline-block; 
+	text-align:center;
+	background-color:skyblue;
+	color:white;
+	border:none;
+	width: 80px;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 0.4em; 
+}
+
+#title{
+	border: 2px solid skyblue; /* 枠線 */
+	border-radius: 0.4em; /* 角丸 */
+	padding: 0.5em;
+	margin-bottom: 10px; 
+}
+
+#content{
+	border: 2px solid skyblue; /* 枠線 */
+	border-radius: 0.4em; /* 角丸 */
+	padding: 0.5em;
+	overflow-y: scroll; /* 縦方向にスクロールさせる */
+	height: 100px;
+	resize: none; /* サイズ変更を無効化 */
+}
+
+#wholestyle{
+	
+	padding: 5% 10%;
+	
+}
+
+#header_newentry{
+	
+	background-color: skyblue;
+	color: white;
+	padding: 5px;
+	font-size: 15px;
+	
+}
+
+#tourokubotan{
+	float: left;
+	margin-right: 10px;
+}

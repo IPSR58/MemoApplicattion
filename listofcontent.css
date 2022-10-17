@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+#header_list{
+	background-color: skyblue;
+	color: white;
+	padding: 5px;
+	font-size: 15px;
+}
+
+#wholestyle{
+	padding: 5% 10%;
+}
+
+button{
+	display:inline-block; 
+	text-align:center;
+	background-color:skyblue;
+	color:white;
+	border:none;
+	width: 80px;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 0.4em; 
+}
+
+#testcontent{
+	border: 2px solid skyblue;
+	border-radius: 0.4em;
+	padding: 5px;
+}
+
+#content{
+	margin: 5px;
+}
+
+#detail{
+	display:block;
+	margin-left:auto;
+	margin-top:0px; /* buttonクラスでmargin-topを設定してるのでそれを無効bにするために改めて書いてる */
+}
+
+
+
+

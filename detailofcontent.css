@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+button{
+	display:inline-block; 
+	text-align:center;
+	background-color:skyblue;
+	color:white;
+	border:none;
+	width: 80px;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 0.4em; 
+}
+
+#header_detail{
+	background-color: skyblue;
+	color: white;
+	padding: 5px;
+	font-size: 15px;
+}
+
+#wholestyle{
+	padding: 5% 10%;
+	}
+	
+dt{
+	float: left;
+}
+
+dd{
+	
+	margin-left: 80px;/* 左の題目にかぶらない程度にマージンをとってる*/
+}
+
+#hensyubotan{
+	float: left;
+	margin-right: 10px;
+}
+
+#sakujobotan{
+	float: left;
+	margin-right: 10px;
+}
+	
